@@ -28,7 +28,7 @@ describe('GET /signup', () => {
 describe('GET /api', () => {
   it('should return 200 OK', (done) => {
     request(app)
-      .get('/api')
+      .get('/armory')
       .expect(200, done);
   });
 });
